@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """file"""
+
+
 class square():
     """square class"""
     width = 0
@@ -21,6 +23,7 @@ class square():
     def __str__(self):
         """comment to be added"""
         return "{}/{}".format(self.width, self.height)
+        """comment to be added"""
 
 
 if __name__ == "__main__":
